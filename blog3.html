@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Home Page</a>
+            <!-- 모바일 메뉴 -->
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="intro.html" class="nav-link">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="service.html" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <!-- 드롭 다운 메뉴 -->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="port_drop" data-toggle="dropdown">Portfolio</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="portfolio1.html" class="dropdown-item">포트폴리오1</a>
+                            <a href="portfolio2.html" class="dropdown-item">포트폴리오2</a>
+                            <a href="portfolio3.html" class="dropdown-item">포트폴리오3</a>
+                            <a href="portfolio4.html" class="dropdown-item">포트폴리오4</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="blog_drop" data-toggle="dropdown">Blog</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="blog1.html" class="dropdown-item">Blog 1</a>
+                            <a href="blog2.html" class="dropdown-item">Blog 2</a>
+                            <a href="blog3.html" class="dropdown-item">Blog 3</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- blog -->
+    <div class="container">
+        <h1 class="mt-3 mb-3">Blog <small>SubHeading</small></h1>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Blog 3</li>
+        </ol>
+
+        <div class="row">
+            <!-- Post -->
+            <div class="col-lg-8">
+                <img src="http://via.placeholder.com/900x300" alt="" class="img-fluid rounded">
+                <hr>
+                <p>Posted on January 1, 2020 at 12:00 PM</p>
+                <hr>
+
+                <!-- Post Content -->
+                <p>Immature love says I love you because I need you. Mature love says I need
+                    you because I love you.
+                    Immature love says I love you because I need you. Mature love says I need
+                    you because I love you.</p>
+
+                <p>Immature love says I love you because I need you. Mature love says I need
+                    you because I love you.
+                    Immature love says I love you because I need you. Mature love says I need
+                    you because I love you.</p>
+
+                <p>Immature love says I love you because I need you. Mature love says I need
+                    you because I love you.
+                    Immature love says I love you because I need you. Mature love says I need
+                    you because I love you.</p>
+
+                <blockquote class="blockquote">
+                    <p class="mb-0">Immature love says I love you because I need you. Mature love says I need
+                        you because I love you.</p>
+                    <footer class="blockquote-footer">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote>
+
+                <p>Immature love says I love you because I need you. Mature love says I need
+                    you because I love you.
+                    Immature love says I love you because I need you. Mature love says I need
+                    you because I love you.</p>
+
+                <p>Immature love says I love you because I need you. Mature love says I need
+                    you because I love you.
+                    Immature love says I love you because I need you. Mature love says I need
+                    you because I love you.</p>
+                <hr>
+
+                <!-- Comments Form -->
+                <div class="card my-4">
+                    <h5 class="card-header">Leave a Comment:</h5>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <textarea rows="3" class="form-control">
+
+                                </textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Comment -->
+                <div class="media mb-4">
+                    <img src="http://via.placeholder.com/50x50" alt="" class="d-flex mr-3 rounded-circle">
+                    <div class="media-body">
+                        <h5 class="mt-0">Commenter Name</h5>
+                        Immature love says I love you because I need you. Mature love says I need
+                        you because I love you. Immature love says I love you because I need you. Mature love says I
+                        need
+                        you because I love you. Immature love says I love you because I need you. Mature love says I
+                        need
+                        you because I love you.
+                    </div>
+                </div>
+
+                <!-- Comment with nested comments -->
+                <div class="media mb-4">
+                    <img src="http://via.placeholder.com/50x50" alt="" class="d-flex mr-3 rounded-circle">
+                    <div class="media-body">
+                        <h5 class="mt-0">Commenter Name</h5>
+                        Immature love says I love you because I need you. Mature love says I need
+                        you because I love you. Immature love says I love you because I need you. Mature love says I
+                        need
+                        you because I love you. Immature love says I love you because I need you. Mature love says I
+                        need
+                        you because I love you.
+                        <div class="media mt-4">
+                            <img src="http://via.placeholder.com/50x50" alt="" class="d-flex mr-3 rounded-circle">
+                            <div class="media-body">
+                                <h5 class="mt-0">Commenter Name</h5>
+                                Immature love says I love you because I need you. Mature love says I need
+                                you because I love you. Immature love says I love you because I need you. Mature love
+                                says I
+                                need
+                                you because I love you. Immature love says I love you because I need you. Mature love
+                                says I
+                                need
+                                you because I love you.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <!-- Search -->
+                <div class="card mb-4">
+                    <h5 class="card-header">Search</h5>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input type="text" name="" id="" class="form-control" placeholder="Search..">
+                            <span class="input-group-append">
+                                <button class="btn btn-secondary">Go</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category -->
+                <div class="card my-4">
+                    <h5 class="card-header">Category</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#">Web Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">HTML</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">CSS3</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#">Web Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">HTML</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">CSS3</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Side -->
+                <div class="card my-4">
+                    <h5 class="card-header">Side Widget</h5>
+                    <div class="card-body">
+                        Immature love says I love you because I need you. Mature love says I need
+                        you because I love you.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <p class="text-center text-white">Copyright &copy; Website 2020</p>
+        </div>
+    </footer>
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

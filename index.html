@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+
+    <!-- 네비게이션 -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Home Page</a>
+            <!-- 모바일 메뉴 -->
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="intro.html" class="nav-link">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="service.html" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <!-- 드롭 다운 메뉴 -->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="port_drop" data-toggle="dropdown">Portfolio</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="portfolio1.html" class="dropdown-item">포트폴리오1</a>
+                            <a href="portfolio2.html" class="dropdown-item">포트폴리오2</a>
+                            <a href="portfolio3.html" class="dropdown-item">포트폴리오3</a>
+                            <a href="portfolio4.html" class="dropdown-item">포트폴리오4</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="blog_drop" data-toggle="dropdown">Blog</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="blog1.html" class="dropdown-item">Blog 1</a>
+                            <a href="blog2.html" class="dropdown-item">Blog 2</a>
+                            <a href="blog3.html" class="dropdown-item">Blog 3</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 이미지 시작 -->
+    <header>
+        <div id="carousel_img" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel_img" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel_img" data-slide-to="1"></li>
+                <li data-target="#carousel_img" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" style="background-image:url('img/laptop.jpg')">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+
+                <div class="carousel-item" style="background-image:url('img/office.jpg')">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+
+                <div class="carousel-item" style="background-image:url('img/business.jpg')">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#carousel_img" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#carousel_img" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </header>
+
+    <div class="container">
+        <h1 class="my-4">Welcome to My Website</h1>
+        <!-- my: 마진 top/bottom -->
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <h4 class="card-header">Github Site</h4>
+                    <div class="card-body">
+                        <p class="card-text">Github Site : https://github.com/study-user</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/study-user" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <h4 class="card-header">Card Title</h4>
+                    <div class="card-body">
+                        <p class="card-text">Immature love says I love you because I need you. Mature love says I need
+                            you because I love you.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <h4 class="card-header">Card Title</h4>
+                    <div class="card-body">
+                        <p class="card-text">Immature love says I love you because I need you. Mature love says I need
+                            you because I love you.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 포트폴리오 섹션 -->
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="http://userko.dothome.co.kr/portfolio1/"><img src="img/portfolio1.jpg" alt="portfolio1" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="http://userko.dothome.co.kr/portfolio1/">모바일용 홈페이지</a>
+                        </h4>
+                        <p class="card-text">크기에 따라 바뀌는 반응형 모바일 홈페이지입니다.<br><br>이미지 및 제목을 클릭해주세요.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="http://userko.dothome.co.kr/portfolio2/"><img src="img/portfolio2.JPG" alt="portfolio2" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="http://userko.dothome.co.kr/portfolio2/">대구 오페라 하우스</a>
+                        </h4>
+                        <p class="card-text">대구 오페라 하우스 홈페이지 따라서 제작하였습니다.<br><br>이미지 및 제목을 클릭해주세요.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="http://userko.dothome.co.kr/portfolio3/"><img src="img/portfolio3.JPG" alt="portfolio3" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="http://userko.dothome.co.kr/portfolio3/">책 검색</a>
+                        </h4>
+                        <p class="card-text">카카오 개발자 API를 활용하여 책 검색기입니다.<br><br>이미지 및 제목을 클릭해주세요.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="http://userko.dothome.co.kr/portfolio4/"><img src="img/portfolio4.JPG" alt="portfolio4" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="http://userko.dothome.co.kr/portfolio4/">깃 허브</a>
+                        </h4>
+                        <p class="card-text">깃 허브 홈페이지를 따라서 제작하였습니다.<br><br>이미지 및 제목을 클릭해주세요.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="http://userko.dothome.co.kr/portfolio5/"><img src="img/portfolio5.JPG" alt="portfolio5" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="http://userko.dothome.co.kr/portfolio5/">타이핑 게임</a>
+                        </h4>
+                        <p class="card-text">타이핑 게임 사이트입니다.<br><br>이미지 및 제목을 클릭해주세요.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 대표이미지 형식의 섹션 -->
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Possessed Technology</h2>
+                <!-- <p>Business template by Start Bootstrap includes.</p> -->
+                <ul>
+                    <strong>Programming Language</strong>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>PHP</li>
+                    <li>JavaScript</li>
+                    <br/>
+                    <strong>Framework</strong>
+                    <li>Codeigniter</li>
+                    <li>Flask</li>
+                    <br/>
+                    <strong>SQL</strong>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6">
+                <img src="img/cat.jpg" alt="" class="img-fluid rounded">
+            </div>
+        </div>
+        <hr>
+
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <!-- <p>Immature love says I love you because I need you. Mature love says I need you because I love you.</p> -->
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="btn btn-lg btn-secondary btn-block">Call to Action</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <p class="text-center text-white">Copyright &copy; Website 2020</p>
+        </div>
+    </footer>
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
